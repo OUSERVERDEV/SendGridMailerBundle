@@ -16,8 +16,14 @@ use Theodo\SendGridMailerBundle\Factory\SendGridEmailFactory;
  */
 class SendGridMailer
 {
+    /**
+     * @const SUCCESS_KEY Table key for the response returned by sendgrid
+     */
     const SUCCESS_KEY = 'message';
 
+    /**
+     * @const SUCCESS_MESSAGE success message returned by sendgrid
+     */
     const SUCCESS_MESSAGE = 'success';
 
     /**
